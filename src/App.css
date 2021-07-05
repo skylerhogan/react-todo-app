@@ -11,13 +11,13 @@
 }
 
 body {
+  min-width: max-content;
   background: linear-gradient(
       90deg,
       rgba(48, 16, 255, 1) 0%,
       rgba(100, 115, 255, 1) 100%
     )
     no-repeat;
-  background-size: 100% 100%;
 }
 .todo-app {
   display: flex;
@@ -30,8 +30,6 @@ body {
   margin: 128px auto;
   border-radius: 10px;
   padding-bottom: 32px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 h1 {
@@ -160,4 +158,26 @@ h1 {
 
 .edit-icon {
   color: #fff;
+}
+
+@media only screen and (max-device-width: 600px) {
+  body {
+    position: -webkit-sticky;
+    min-height: 45rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .todo-app {
+    width: 25rem;
+    min-height: auto;
+    font-size: 1.5rem;
+  }
+
+  .todo-input {
+    font-size: 1.4rem;
+  }
+  .todo-button {
+    font-size: 1.4rem;
+  }
 }
