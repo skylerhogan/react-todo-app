@@ -38,9 +38,7 @@ function TodoForm(props) {
         onChange={handleChange}
         ref={focus}
       />
-      <button className="todo-button">
-        <FiPlus />
-      </button>
+      <button className="todo-button">{addButton}</button>
     </form>
   );
 }

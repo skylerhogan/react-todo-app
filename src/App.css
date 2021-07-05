@@ -12,10 +12,13 @@
 
 body {
   background: linear-gradient(
-    90deg,
-    rgba(48, 16, 255, 1) 0%,
-    rgba(100, 115, 255, 1) 100%
-  );
+      90deg,
+      rgba(48, 16, 255, 1) 0%,
+      rgba(100, 115, 255, 1) 100%
+    )
+    no-repeat;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
 }
 .todo-app {
   display: flex;
@@ -28,6 +31,8 @@ body {
   margin: 128px auto;
   border-radius: 10px;
   padding-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
