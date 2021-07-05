@@ -169,15 +169,20 @@ h1 {
   }
 
   .todo-app {
-    width: 25rem;
+    width: 22rem;
     min-height: auto;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .todo-input {
-    font-size: 1.4rem;
+    width: 75%;
+    font-size: 1.2rem;
   }
   .todo-button {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+  }
+
+  .todo-row {
+    width: 85%%;
   }
 }
