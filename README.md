@@ -13,4 +13,3 @@ It uses React hooks, useEffect, useState, and useRef. At this point you will be 
 
 Next I would like to make the list persistent across devices using a database like MongoDB.
 
-You can check it out here: https://lsh-todos.herokuapp.com
